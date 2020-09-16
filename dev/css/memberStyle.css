@@ -1,0 +1,94 @@
+.member_styleA {
+  flex-shrink: 0;
+}
+
+.member_styleA .memberImg {
+  display: inline-block;
+  background-color: #555;
+  border-radius: 50%;
+  width: 65px;
+  padding-top: 65px;
+  overflow: hidden;
+  position: relative;
+}
+
+.member_styleA .memberImg img {
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.member_styleA .memberInfo {
+  display: inline-block;
+}
+
+.member_styleA .memberInfo .certification .certificationIcon {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+}
+
+.member_styleA .memberInfo .memberId {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+}
+
+.member_styleA .memberInfo .memberBadge .memberBadgeIcon {
+  display: inline-block;
+  width: 25px;
+  padding-top: 25px;
+  overflow: hidden;
+  position: relative;
+}
+
+.member_styleA .memberInfo .memberBadge .memberBadgeIcon img {
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.member_styleA.row {
+  width: 211px;
+  display: inline-block;
+}
+
+.member_styleA.row .memberInfo .memberBadge {
+  display: inline-block;
+}
+
+.member_styleA.column {
+  width: 145px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.member_styleA.column .memberInfo .memberId {
+  text-align: center;
+}
+
+.member_styleA.column .memberInfo .certification {
+  display: flex;
+  justify-content: center;
+}
+
+.member_styleA.column .memberInfo .certification .certificationIcon {
+  margin: 5px;
+}
+
+.member_styleA.column .memberInfo .memberBadge {
+  display: flex;
+  justify-content: center;
+}
+
+.member_styleA.column .memberInfo .memberBadge .memberBadgeIcon {
+  margin: auto 5px;
+}
+/*# sourceMappingURL=memberStyle.css.map */
